@@ -1,5 +1,5 @@
 const form = document.querySelector("#create-task-form");
-const submitButton = document.querySelector("#create-task-form #submit");
+const userInput = document.querySelector("#new-task-description");
 
 document.addEventListener("DOMContentLoaded", () => {
 
