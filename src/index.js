@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
 form.addEventListener("submit", (e) => {
   let task = userInput.value;
   let liTag = document.createElement('li');
-  let liTag = document.createElement('button');
+  let deleteBtn = document.createElement('button');
+  deleteBtn.setAttribute
   liTag.innerHTML = ""
   e.preventDefault();
 });
