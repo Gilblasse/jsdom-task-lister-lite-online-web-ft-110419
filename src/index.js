@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function addToList(){
-  submitButton.addEventListener("click", (e) => {
+  submitButton.addEventListener("submit", (e) => {
     console.log(e);
     e.preventDefault;
   });
