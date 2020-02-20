@@ -7,10 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 form.addEventListener("submit", (e) => {
-  let task = userInput.value;
-  let liTag = document.createElement('li');
-  liTag.innerHTML = `${task} <button>&#88;</button>`;
-  ulTag.appendChild(liTag);
+  addTask();
   e.preventDefault();
 });
 
@@ -19,3 +16,10 @@ document.addEventListener('click',function(e){
       e.target.parentElement.remove();
     }
 })
+
+function addTask() {
+  let task = userInput.value;
+  let liTag = document.createElement('li');
+  liTag.innerHTML = `${task} <button>&#88;</button>`;
+  ulTag.appendChild(liTag);
+}
