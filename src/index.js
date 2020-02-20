@@ -16,6 +16,6 @@ form.addEventListener("submit", (e) => {
 
 document.addEventListener('click',function(e){
     if (e.target.tagName == "BUTTON") {
-      e.target.previousSibling
+      e.target.parentElement
     }
 })
