@@ -5,7 +5,7 @@ const ulTag = document.querySelector("#list #tasks");
 document.addEventListener("DOMContentLoaded", () => {
 
 });
-tasks
+
 form.addEventListener("submit", (e) => {
   let task = userInput.value
   
