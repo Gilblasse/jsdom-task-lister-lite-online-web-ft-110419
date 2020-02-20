@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function addToList(){
-  document.addEventListener("click", () => {
+  document.addEventListener("click", (e) => {
   console.log(form);
+  e.
 });
 }
