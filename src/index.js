@@ -12,10 +12,14 @@ form.addEventListener("submit", (e) => {
 });
 
 document.addEventListener('click',function(e){
-    if (e.target.tagName == "BUTTON") {
+    removeTask();
+})
+
+function removeTask() {
+  if (e.target.tagName == "BUTTON") {
       e.target.parentElement.remove();
     }
-})
+}
 
 function addTask() {
   let task = userInput.value;
