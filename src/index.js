@@ -15,15 +15,16 @@ document.addEventListener('click',function(e){
     removeTask();
 });
 
-function removeTask() {
-  if (e.target.tagName == "BUTTON") {
-      e.target.parentElement.remove();
-    }
-}
 
 function addTask() {
   let task = userInput.value;
   let liTag = document.createElement('li');
   liTag.innerHTML = `${task} <button>&#88;</button>`;
   ulTag.appendChild(liTag);
+}
+
+function removeTask() {
+  if (e.target.tagName == "BUTTON") {
+      e.target.parentElement.remove();
+    }
 }
