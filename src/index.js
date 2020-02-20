@@ -23,7 +23,7 @@ function addTask() {
   ulTag.appendChild(liTag);
 }
 
-function removeTask() {
+function removeTask(e) {
   if (e.target.tagName == "BUTTON") {
       e.target.parentElement.remove();
     }
