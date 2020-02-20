@@ -14,8 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
-
 function addTask() {
   let task = userInput.value;
   let liTag = document.createElement('li');
