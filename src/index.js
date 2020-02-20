@@ -1,8 +1,9 @@
-const form = document.querySelector("#create-task-form");
-const userInput = document.querySelector("#new-task-description");
-const ulTag = document.querySelector("#list #tasks");
 
 document.addEventListener("DOMContentLoaded", () => {
+  const form = document.querySelector("#create-task-form");
+  const userInput = document.querySelector("#new-task-description");
+  const ulTag = document.querySelector("#list #tasks");
+
   form.addEventListener("submit", (e) => {
     addTask();
     e.preventDefault();
