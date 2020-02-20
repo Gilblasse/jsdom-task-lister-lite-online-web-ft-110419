@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 form.addEventListener("submit", (e) => {
-  console.log(e);
+  let task = userInput.value
+  
   e.preventDefault();
 });
