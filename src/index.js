@@ -1,8 +1,5 @@
-const form = document.querySelector("#create-task-form")
+const form = document.querySelector("#create-task-form #submit")
 document.addEventListener("DOMContentLoaded", (e) => {
   stopForm (e);
 });
 
-function stopForm (e){
-  e.preventDefault;
-}
