@@ -1,4 +1,6 @@
+const form = document.querySelector("#create-task-form");
 const submitButton = document.querySelector("#create-task-form #submit");
+
 document.addEventListener("DOMContentLoaded", () => {
 
 });
