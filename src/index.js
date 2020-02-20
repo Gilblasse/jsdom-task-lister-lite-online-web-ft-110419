@@ -3,3 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   console.log(form);
 });
 
+function addToList(){
+  document.addEventListener("click", () => {
+  console.log(form);
+});
+}
