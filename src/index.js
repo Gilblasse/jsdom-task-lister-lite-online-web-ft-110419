@@ -13,7 +13,7 @@ form.addEventListener("submit", (e) => {
 
 document.addEventListener('click',function(e){
     removeTask();
-})
+});
 
 function removeTask() {
   if (e.target.tagName == "BUTTON") {
