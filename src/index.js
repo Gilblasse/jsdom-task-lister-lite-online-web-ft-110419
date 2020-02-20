@@ -4,5 +4,5 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 function stopForm (e){
-  e.preventDefault
+  e.preventDefault;
 }
