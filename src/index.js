@@ -3,17 +3,17 @@ const userInput = document.querySelector("#new-task-description");
 const ulTag = document.querySelector("#list #tasks");
 
 document.addEventListener("DOMContentLoaded", () => {
+  form.addEventListener("submit", (e) => {
+    addTask();
+    e.preventDefault();
+  });
 
+  document.addEventListener('click',function(e){
+      removeTask(e);
+  });
 });
 
-form.addEventListener("submit", (e) => {
-  addTask();
-  e.preventDefault();
-});
 
-document.addEventListener('click',function(e){
-    removeTask(e);
-});
 
 
 function addTask() {
