@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 form.addEventListener("submit", (e) => {
-  let task = userInput.value
-  
+  let task = userInput.value;
+  let liTag = document.createElement('li');
+  liTag.innerHTML = ""
   e.preventDefault();
 });
