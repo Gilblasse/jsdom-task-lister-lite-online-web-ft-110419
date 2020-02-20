@@ -14,3 +14,8 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
 });
 
+document.addEventListener('click',function(e){
+    if (e.target.tagName == "BUTTON") {
+      
+    }
+})
